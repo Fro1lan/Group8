@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 7px;
+}
+
+.card {
+    position: relative;
+    background: white;
+    margin: 50px 0;
+    width: 100%;
+}
+
+.navbar{
+	padding: 20px;
+    position: relative;
+    background: white;
+    margin: 50px 0;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navbar::before{
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background: white;
+    background-size: cover;
+    
+}
+
+nav	
+{
+	text-align: center;
+    padding-right: 120px;
+}
+nav ul
+{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li
+{
+    text-decoration: none;
+    font-family: sans-serif;
+	display: inline-block;
+	margin-right: 50px;
+    transition: .3s;
+}
+nav ul li:hover{
+    color: white;
+    background: black;
+}
+
+a{
+    display: inline-block;
+	text-decoration: none;
+	color : black;
+    align-items: center;
+}
+a:hover{
+    color: white;
+    background: black;
+}
+
+.container
+ {   
+ 	max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+    overflow: hidden;
+
+}
+.row{
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+.col-2{
+	min-width: 300px;
+}
+
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+
+.col-2 img{
+	max-width: 100%;
+	padding: 50px 0;
+}
+.col-2 .una{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+    color: black;
+}
+.col-2 .pangalawa{
+    font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+    color: red;
+}
+
+.unangtext{
+    font-family: sans-serif;
+    font-size: 7px;
+    color: black;
+    text-align: justify;
+}
